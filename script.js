@@ -1,10 +1,10 @@
-// display value in input box
+// display value in input field
 function pick(val)
 {
     document.getElementById('Cal').value += val;
 }
 
-// solve the given equation
+// give execution based on user input
 function solve()
 {
    let x = document.getElementById('Cal').value;
@@ -12,7 +12,7 @@ function solve()
    document.getElementById('Cal').value = y;
 }
 
-// clear the input box
+// clears input field
 function clr()
 {
     document.getElementById('Cal').value=" ";
