@@ -4,7 +4,7 @@ function pick(val)
     document.getElementById('Cal').value += val;
 }
 
-// gives output based on users input
+// evaluation
 function solve()
 {
    let x = document.getElementById('Cal').value;
